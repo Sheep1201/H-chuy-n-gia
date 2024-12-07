@@ -1,0 +1,84 @@
+/* UserForm.css */
+
+.user-form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 8px;
+  width: 500px;
+  height: 100%;
+  margin: auto auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 1rem;
+  color: rgb(0,0,0) ;
+  /* Subtle contrast for labels */
+
+}
+
+select,
+button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+input[type="number"] {
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  border-width: 1px;
+  font-size: 1rem;
+}
+
+
+option {}
+
+.check-box-div{
+  display: flex;
+  width: 500px;
+  align-items: center;
+}
+.check-box{
+  width: 20px;
+  right: 0px;
+}
+
+
+@media (max-width: 600px) {
+  form {
+    padding: 15px;
+  }
+
+  label,
+  select,
+  input,
+  button {
+    font-size: 0.9rem;
+  }
+}
+
+.recommendations table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.recommendations th, .recommendations td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.recommendations th {
+  background-color: #f4f4f4;
+}
+
+.recommendations tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
